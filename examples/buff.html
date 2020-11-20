@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="examplestyle.css">
+    <title>Buff</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <nav>
+    </nav>
+    <main>
+       <article class= "example">
+<h2>Example Buff:</h2> 
+<pre>
+    <code>
+        using OratiumMod.Items.NPCs;
+        using Terraria;
+        using Terraria.ModLoader;
+        
+        namespace OratiumMod.Items.Buffs
+        {
+            public class BerserkBuff : ModBuff
+            {
+                public override void SetDefaults()
+                {
+                    DisplayName.SetDefault("Berserk");
+                    Description.SetDefault("Lose all defence in exchange for doubled damage.");
+                    Main.debuff[Type] = true;
+                    Main.pvpBuff[Type] = true;
+                    Main.buffNoSave[Type] = true;
+                    longerExpertDebuff = true;
+                }
+        
+                public override void Update(Player player, ref int buffIndex)
+                {
+                    player.statDefense -= 100; 
+                    player.allDamage *= 2;
+                }
+            }
+        }
+           </code>
+        </pre>
+
+    </article>
+</main>
+<footer>
+    
+</footer>
+</body>
+
+</html>
