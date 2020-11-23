@@ -14,7 +14,7 @@ body {
   body {
     display: grid;
     max-width: 100vw;
-    grid-template-rows: 14vh 5vh 140vh 10vh;
+    grid-template-rows: 14vh 5vh 170vh 10vh;
     min-height: 100vh;
   }
 }
@@ -145,6 +145,22 @@ main {
   flex-direction: column;
   transition: height 0.4s;
 }
+
+@media screen and (max-width: 600px) {
+  .example {
+    margin: 4vh;
+    border: rgb(0, 0, 0);
+    border-style: double;
+    background-color: rgb(73, 73, 73);
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    transition: height 0.4s;
+  }
+}
+
 footer {
   background-color: rgb(24, 24, 24);
 }
