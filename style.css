@@ -50,7 +50,7 @@ pre {
   overflow: auto;
   align-self: center;
   justify-self: end;
-  transition: padding 0.4s;
+  transition: padding 0.2s;
 }
 
 .example pre:hover,
@@ -143,7 +143,7 @@ main {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  transition: height 0.4s;
+  transition: height 0.5s;
 }
 
 @media screen and (max-width: 600px) {
