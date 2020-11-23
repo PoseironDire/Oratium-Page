@@ -14,7 +14,7 @@ body {
   body {
     display: grid;
     max-width: 100vw;
-    grid-template-rows: 14vh 5vh auto 10vh;
+    grid-template-rows: 14vh 5vh 140vh 10vh;
     min-height: 100vh;
   }
 }
