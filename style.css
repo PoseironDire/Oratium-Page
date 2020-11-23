@@ -131,6 +131,8 @@ main {
   background-color: rgb(49, 49, 49);
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .example {
