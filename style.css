@@ -33,10 +33,20 @@ h1 {
 }
 
 h2 {
+  color: #b1ae2a;
   display: flex;
   justify-content: space-around;
   align-self: center;
   font-family: "Oswald", sans-serif;
+  margin: 2%;
+  background-color: #222222;
+  padding: 20px;
+}
+
+#happy {
+  width: 70%;
+  justify-self: center;
+  margin: 3%;
 }
 
 pre {
@@ -51,6 +61,7 @@ pre {
   align-self: center;
   justify-self: end;
   transition: padding 0.2s;
+  margin: 3%;
 }
 
 .example pre:hover,
@@ -153,6 +164,7 @@ main {
   height: 80%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-direction: column;
   transition: height 0.5s;
 }
@@ -234,4 +246,33 @@ footer {
   .topnav input[type="text"] {
     border: 1px solid #ccc;
   }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  color: #b1ae2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  transition: width, font-size 0.1s;
+}
+footer a:hover {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  color: #9a2ab1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  transition: width, font-size 0.1s;
 }
