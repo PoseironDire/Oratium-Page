@@ -250,29 +250,24 @@ footer {
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-footer a {
+footer a,
+footer p {
   text-decoration: none;
   font-family: "Oswald", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: #b1ae2a;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100px;
+  padding: 15px;
   transition: width, font-size 0.1s;
 }
+
 footer a:hover {
-  text-decoration: none;
-  font-family: "Oswald", sans-serif;
   font-size: 25px;
   color: #9a2ab1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
-  transition: width, font-size 0.1s;
 }
